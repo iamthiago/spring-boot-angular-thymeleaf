@@ -1,0 +1,12 @@
+{
+  "name": "spring-boot-angular-thymeleaf",
+  "version": "1.0.0",
+  "description": "Template Project",
+  "author": "Thiago Pereira",
+  "license": "ISC",
+  "homepage": "https://github.com/thiagoandrade6/spring-boot-angular-thymeleaf",
+  "dependencies": {
+    "bower": "^1.3.12",
+    "grunt": "^0.4.5"
+  }
+}
