@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<body>
+		<div th:fragment="body">
+			<script
+				src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"
+				th:src="@{/webjars/angularjs/1.2.20/angular.min.js}"></script>
+			<script
+				src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular-route.min.js"
+				th:src="@{/webjars/angularjs/1.2.20/angular-route.min.js}"></script>
+			<script
+				src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular-resource.min.js"
+				th:src="@{/webjars/angularjs/1.2.20/angular-resource.min.js}"></script>
+			<script src="//code.jquery.com/jquery-2.1.1.min.js"
+				th:src="@{/webjars/jquery/2.1.1/jquery.min.js}"></script>
+			<script
+				src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.0/ui-bootstrap.min.js"
+				th:src="@{/webjars/angular-ui-bootstrap/0.11.0/ui-bootstrap.min.js}"></script>
+			<script
+				src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"
+				th:src="@{/webjars/bootstrap/3.2.0/js/bootstrap.min.js}"></script>
+	
+			<script type="text/javascript"
+				th:src="@{/js/angular/common/commonDirectives.js}"></script>
+			<script type="text/javascript"
+				th:src="@{/js/angular/common/commonFactory.js}"></script>
+			<script type="text/javascript"
+				th:src="@{/js/angular/common/commonController.js}"></script>
+			<script type="text/javascript"
+				th:src="@{/js/angular/common/commonRoute.js}"></script>
+			<script type="text/javascript" 
+				th:src="@{/js/angular/app.js}"></script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,1 @@
+angular.module('Commom.Directives', []);
