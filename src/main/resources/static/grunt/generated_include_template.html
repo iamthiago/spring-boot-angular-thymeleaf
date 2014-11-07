@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <div th:fragment="body">
+
+        <!-- include: "type": "js", "files": "bower_components/angular/angular.min.js" -->
+        <!-- include: "type": "js", "files": "bower_components/angular-route/angular-route.min.js" -->
+        <!-- include: "type": "js", "files": "bower_components/angular-resource/angular-resource.min.js" -->
+
+        <!-- include: "type": "js", "files": "bower_components/jquery/dist/jquery.min.js" -->
+        <!-- include: "type": "js", "files": "bower_components/bootstrap/dist/js/bootstrap.min.js" -->
+        <!-- include: "type": "js", "files": "bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js" -->
+
+        <!-- @if NODE_ENV == 'dev' -->
+        <!-- include: "type": "js", "files": "js/**/*.js" -->
+        <!-- @endif -->
+
+        <!-- @if NODE_ENV == 'prod' -->
+        <!-- include: "type": "js", "files": "dist/**/*.min.js" -->
+        <!-- @endif -->
+
+    </div>
+</html>

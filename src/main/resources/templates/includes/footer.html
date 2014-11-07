@@ -3,19 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 	<body>
 		<div th:fragment="body">
-			<script th:src="@{/bower_components/angular/angular.min.js}"></script>
-			<script th:src="@{/bower_components/angular-route/angular-route.min.js}"></script>
-			<script th:src="@{/bower_components/angular-resource/angular-resource.min.js}"></script>
-
-			<script th:src="@{/bower_components/jquery/dist/jquery.min.js}"></script>
-			<script th:src="@{/bower_components/bootstrap/dist/js/bootstrap.min.js}"></script>
-			<script th:src="@{/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js}"></script>
-
-			<script type="text/javascript" th:src="@{/js/angular/common/commonDirectives.js}"></script>
-			<script type="text/javascript" th:src="@{/js/angular/common/commonFactory.js}"></script>
-			<script type="text/javascript" th:src="@{/js/angular/common/commonController.js}"></script>
-			<script type="text/javascript" th:src="@{/js/angular/common/commonRoute.js}"></script>
-			<script type="text/javascript" th:src="@{/js/angular/app.js}"></script>
+			<div th:replace="includes/grunt/include :: body"></div>
 		</div>
 	</body>
 </html>

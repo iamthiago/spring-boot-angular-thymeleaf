@@ -14,12 +14,12 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 
 	@RequestMapping("/")
-	public ModelAndView index() {
-		return new ModelAndView("index");
+	public String index() {
+		return "index";
 	}
 
 	@RequestMapping(value = "templates/{page}", method = RequestMethod.GET)
-	public ModelAndView getLayout(@PathVariable("page") String page) {
-		return new ModelAndView(page);
+	public String getLayout(@PathVariable("page") String page) {
+		return page;
 	}
 }

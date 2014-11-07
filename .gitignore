@@ -7,3 +7,7 @@
 
 *bower_components/
 *node_modules/
+
+src/main/resources/static/dist/*
+src/main/resources/static/grunt/generated_include.html
+src/main/resources/templates/includes/grunt/*
